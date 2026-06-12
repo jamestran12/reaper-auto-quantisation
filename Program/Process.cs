@@ -182,7 +182,7 @@ namespace reaper_auto_quantisation
                                     }
                                     else
                                     {
-                                        sw.WriteLine("IGUID {19CD1F9B-3580-41B2-B1BF-715BD7988E1E}", j + linePos - 1);
+                                        sw.WriteLine(newLine, j + linePos - 1);
                                     }
                                 }
                             }
